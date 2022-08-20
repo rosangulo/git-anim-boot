@@ -20,15 +20,15 @@ header {
 }*/
 
 
-.logoheader{
+.logoheader {
     width: 4.5em;
     height: 3.1em;
     overflow: hidden;
 }
 
-.navbar{
+.navbar {
     /*background-color:  #a98467ff;*/
-    background-image: linear-gradient(to right, #a98467ff , #f0ead2ff, #6c584cff);
+    background-image: linear-gradient(to right, #a98467ff, #f0ead2ff, #6c584cff);
 }
 
 header nav div a img:hover {
@@ -37,10 +37,57 @@ header nav div a img:hover {
 }
 
 .navbar-nav li a {
-    color:  #dde5b6ff;
+    color: #dde5b6ff;
 }
 
 
 .navbar-nav .nav-link.active {
     color: #6c584cff;
 }
+
+
+main {
+    min-height: 80vh;
+}
+
+
+.mainind h1 {
+    display: inline-block;
+    align-items: center;
+    margin: 0 0.5rem;
+    animation-name: tituloMovible;
+    animation: bounce;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-delay: 20s;
+}
+
+
+
+
+/*.carousiz {
+    min-height: 10vh;
+}*/
+ .camicar {
+    width: fit-content;
+ }
+
+footer {
+    background-image: linear-gradient(95deg, #a98467ff , #f0ead2ff, #6c584cff);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*  KEYFRAMES   */
+
+/*@keyframes tituloMovible {}*/
