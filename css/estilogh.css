@@ -1,0 +1,46 @@
+/* CSS HEX 
+--eggshell: #f0ead2ff;
+--pale-spring-bud: #dde5b6ff;
+--olivine: #adc178ff;
+--cafe-au-lait: #a98467ff;
+--umber: #6c584cff;*/
+
+
+
+header {
+    font-size: 15px;
+
+}
+
+
+/*.logoBorder {
+    width: 7.8em;
+    height: 6.3em;
+    border-radius: 25%;
+}*/
+
+
+.logoheader{
+    width: 4.5em;
+    height: 3.1em;
+    overflow: hidden;
+}
+
+.navbar{
+    /*background-color:  #a98467ff;*/
+    background-image: linear-gradient(to right, #a98467ff , #f0ead2ff, #6c584cff);
+}
+
+header nav div a img:hover {
+    transform: scale(1.1) translate(3px, 3px);
+    transition: 1s;
+}
+
+.navbar-nav li a {
+    color:  #dde5b6ff;
+}
+
+
+.navbar-nav .nav-link.active {
+    color: #6c584cff;
+}
