@@ -9,7 +9,7 @@
 
 header {
     font-size: 15px;
-    margin-bottom: 3.5em;
+    
 }
 
 
@@ -48,16 +48,19 @@ header nav div a img:hover {
 
 main {
     min-height: 80vh;
+    font-size: 13px;
+    background-color:#f0ead2ff ;
 }
 
 .carwo {
-   margin-left: 5em;
+   margin-left: 2.5em;
     width: 90vw;
 }
 
 .mainind h1 {
     display: inline-block;
     margin-left: 35vw;
+    margin-top: 2.3em;
     /*margin: 0 0.5rem;*/
     animation-name: tituloMovible;
     animation: bounce;
@@ -91,6 +94,12 @@ main {
     width: 25em;
     height: 20em;
     margin: 0.5em;
+}
+
+
+
+.uberuns {
+    font-size: 1.1em ;
 }
 
 
