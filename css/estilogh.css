@@ -9,7 +9,7 @@
 
 header {
     font-size: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 3.5em;
 }
 
 
@@ -50,11 +50,15 @@ main {
     min-height: 80vh;
 }
 
+.carwo {
+   margin-left: 5em;
+    width: 90vw;
+}
 
 .mainind h1 {
     display: inline-block;
-    align-items: center;
-    margin: 0 0.5rem;
+    margin-left: 35vw;
+    /*margin: 0 0.5rem;*/
     animation-name: tituloMovible;
     animation: bounce;
     animation-duration: 3s;
@@ -70,6 +74,7 @@ main {
 }*/
  
  .imgcar {
+    width: 80vw;
     height: 60em;
  }
 
@@ -110,3 +115,6 @@ footer {
 /*  KEYFRAMES   */
 
 /*@keyframes tituloMovible {}*/
+
+
+
