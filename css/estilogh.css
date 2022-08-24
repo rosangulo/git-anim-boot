@@ -164,6 +164,7 @@ p{
 
 /*FORM*/
 
+
 label {
     color: #6c584cff;
     font-size: 1.3em;
@@ -228,7 +229,7 @@ footer {
 
     
     .img-thumbnail {
-        margin-left: 15vw;
+        margin-left: 12vw;
     }
     
     .navbar-nav {
